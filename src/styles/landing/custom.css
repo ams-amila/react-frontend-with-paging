@@ -1,0 +1,201 @@
+.row{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+.header{
+    background: #000;
+    border-bottom: 2px solid #F6921F;
+}
+.logout-link{
+    color: #aaa !important;
+    text-decoration: underline !important;
+    cursor: pointer;
+}
+.logout-link:hover{
+    color: #fff !important;
+}
+.header-menu{
+    margin-top: 7px;
+}
+.header-title{
+    color: #fff !important;
+    font-size: 20px !important;
+}
+.sidebar-wrapper{
+    background: #20202F;
+    margin: 20px;
+    padding: 10px 0px;
+}
+.sidebar-item{
+    color:#fff;
+    padding: 10px;
+    width: 200px;
+    height: 100px;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+.sidebar-item-name{
+    color:#fff;
+}
+.sidebar-item-icon{
+    font-size: 45px;
+}
+.sidebar-item-1{
+    background: #F7931E;
+}
+.sidebar-item-2{
+    background: #7BD634;
+}
+.sidebar-item-3{
+    background: #29ABE2;
+}
+.sidebar-item-active{
+    opacity: .8;
+}
+.form-wrapper{
+    margin: 20px;
+    padding: 10px 0px;
+}
+.row.main-section.ptd30 .col-md-9 > div{
+    border: 1px solid #ccc;
+}
+.form-action-btn-wrapper{
+    padding-top: 25px;
+    border-top: 1px solid #ccc;
+    text-align: center;
+}
+.flip-view-close-btn{
+    border-radius: 7px;
+    font-size: 29px;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    float: right;
+    position: relative;
+    top: -60px;
+    left: 10px;
+}
+.article-post-intro{
+    padding: 0;
+}
+.article-table{
+    width: 100%;
+}
+.blog-post-wrapper{
+    margin: 15px 0px;
+}
+.blog-post-btn-wrapper{
+    padding: 15px;
+}
+.blog-post-delete-icon{
+    background: red;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 6px;
+    font-weight: 700;
+    font-size: 20px;
+    color:#fff !important;
+    cursor: pointer;
+    display: inherit !important;
+    float: left;
+}
+.blog-post-edit-icon{
+    background: green;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 6px;
+    font-weight: 700;
+    font-size: 20px;
+    color:#fff !important;
+    cursor: pointer;
+    display: inherit !important;
+    float: right;
+}
+.posts-end-notification{
+    background: #000;
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+}
+
+.posts-end-notification-land{
+    background: #0077aa;
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+}
+
+@keyframes placeHolderShimmer {
+    0% {
+        background-position: -455px 0
+    }
+    100% {
+        background-position: 455px 0
+    }
+}
+
+.spp-content-placeholder .spp-placeholder {
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: placeHolderShimmer;
+    animation-timing-function: linear;
+    background: #fff;
+    background: linear-gradient(to right, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
+    background-size: 800px 200px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.manage-blog-box{
+    height: 452px;
+}
+
+.reader-blog-box{
+    height: 210px;
+}
+
+.article-post.manage{
+    min-height: 200px;
+}
+.blog-post-action-table{
+    position: absolute;
+    bottom: 25px;
+    width: 85%;
+}
+.reader{
+    cursor: pointer !important;
+}
+.reader .article-post-intro h5{
+    height: 60px !important;
+}
+.reader .article-post-intro p{
+    height: 150px !important;
+    overflow: hidden;
+}
+.back-to-articles{
+    position: absolute;
+    right: 10px;
+    z-index: 10000;
+    top: 100px;
+}
+.reader-view{
+    background: #fff !important;
+}
+.reader-view .header-bottom{
+    background: #fff !important;
+}
+.reader-view .main-content.themeix-blog-post{
+    box-shadow: none !important;
+}
+.text-right{
+    text-align: right !important;
+}

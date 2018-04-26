@@ -1,0 +1,9 @@
+import './bootstrap.min.css';
+import './font-awesome.min.css';
+import './animate.min.css';
+import './owl.carousel.min.css';
+import './style.css';
+import './custom.css';
+import './responsive.css';
+import '../../../node_modules/toastr/build/toastr.min.css';
+import '../../../node_modules/sweetalert/dist/sweetalert.css';
